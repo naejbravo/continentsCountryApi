@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.use(
   cors({
     origin: [
-      "https://angular-continent-countries.vercel.app/api"
+      "https://angular-continent-countries.vercel.app"
     ],
     credentials: true,
   })
@@ -37,16 +37,16 @@ app.use(express.urlencoded({ limit: "5mb", extended: true }));
 app.use("/api/countries", CountryRoutes);
 app.use("/api/continents", ContinentRoutes);
 
-app.use("/", (req, res, next) => {
-  return res.json({
-    country: {
-      endpoints: ["/api/countries", "/api/countries/:id"],
-    },
-    continent: {
-      endpoint: "/api/continents",
-    },
-  });
-});
+// app.use("/", (req, res, next) => {
+//   return res.json({
+//     country: {
+//       endpoints: ["/api/countries", "/api/countries/:id"],
+//     },
+//     continent: {
+//       endpoint: "/api/continents",
+//     },
+//   });
+// });
 
 app.use("*", (req, res, next) => {
   return next(setError(404, "Route not found"));
