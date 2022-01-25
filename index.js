@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.use(
   cors({
     origin: [
-      "https://angular-continent-countries.vercel.app"
+      "https://angular-continent-countries.vercel.app/api"
     ],
     credentials: true,
   })
