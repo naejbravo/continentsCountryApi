@@ -1,0 +1,79 @@
+{
+  "continent": [
+    {
+      "id": 1,
+      "name": "America",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Americas_on_the_globe_%28red%29.svg/1200px-Americas_on_the_globe_%28red%29.svg.png"
+    },
+    {
+      "id": 2,
+      "name": "Europe",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Europe_on_the_globe_%28red%29.svg/1200px-Europe_on_the_globe_%28red%29.svg.png"
+    },
+    {
+      "id": 3,
+      "name": "Asia",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Asia_on_the_globe_%28red%29.svg/1200px-Asia_on_the_globe_%28red%29.svg.png"
+    },
+    {
+      "id": 4,
+      "name": "Africa",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Africa_on_the_globe_%28red%29.svg/1200px-Africa_on_the_globe_%28red%29.svg.png"
+    },
+    {
+      "id": 5,
+      "name": "Oceania",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Oceania_on_the_globe_%28red%29_%28Polynesia_centered%29.svg/1200px-Oceania_on_the_globe_%28red%29_%28Polynesia_centered%29.svg.png"
+    }
+  ],
+  "country": [
+    {
+      "id": 1,
+      "name": "Bangladesh",
+      "alias": "BD",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
+    },
+    {
+      "id": 2,
+      "name": "Russia",
+      "alias": "RU",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png"
+    },
+    {
+      "id": 3,
+      "name": "Argentina",
+      "alias": "AR",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png"
+    },
+    {
+      "id": 4,
+      "name": "Portugal",
+      "alias": "PT",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1200px-Flag_of_Portugal.svg.png"
+    },
+    {
+      "id": 5,
+      "name": "China",
+      "alias": "CN",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+    },
+    {
+      "id": 6,
+      "name": "Indonesia",
+      "alias": "ID",
+      "img": "https://www.banderasvdk.com/blog/wp-content/uploads/bandera-indonesia-exterior.jpg"
+    },
+    {
+      "id": 7,
+      "name": "United States",
+      "alias": "US",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+    },
+    {
+      "id": 8,
+      "name": "Japan",
+      "alias": "JP",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/800px-Flag_of_Japan.svg.png"
+    }
+  ]
+}
