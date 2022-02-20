@@ -35,7 +35,7 @@ app.use(
 );
 
 app.use(express.urlencoded({ limit: "5mb", extended: true }));
-app.use("/api/countries", CountryRoutes);
+app.use("/api/country", CountryRoutes);
 app.use("/api/continents", ContinentRoutes);
 
 app.use("/", (req, res, next) => {
